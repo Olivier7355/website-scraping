@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Olivier Charles">
     <meta name="generator" content="Hugo 0.108.0">
-    <title>ScrapeCode</title>
+    <title>ScrapeCoder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
     <!-- Custom styles for this template -->
-    <link href="css/pricing.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
@@ -86,13 +86,8 @@
             <li><a href="#" class="nav-link px-2 text-white">About</a></li>
         </ul>
 
-        <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-        </form> -->
-
         <div class="text-end">
-            <button type="button" class="btn btn-warning me-2">Client Login</button>
-            
+            <button type="button" class="btn btn-warning me-2">Client Access</button>           
         </div>
         </div>
     </div>
@@ -116,11 +111,35 @@
 </div>
 <div class="container text-bg-dark px-4 py-0">
 
-    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-0">
       <div class="col d-flex flex-column align-items-start gap-2">
         <h3 class="fw-bold">Tell us about your project</h3>
         <p class="lead">We get to know more about your project and consult you on the possibilities. We then provide you a cost estimate.</p>
-        <a href="#" class="btn btn-primary btn-lg">Get a quote</a>
+      
+        <div class ="container-form bg-primary">
+          <div class="mb-2">
+           <label for="exampleFormControlTextarea1" class="form-label lead fw-bold">Your message</label>
+           <textarea class="form-control bg-light" id="exampleFormControlTextarea1" rows="5" required></textarea>
+         </div>
+         <div class="mb-2">
+           <label for="exampleFormControlInput1" class="form-label lead fw-bold">Your name</label>
+           <input type="text" class="form-control bg-light" id="exampleFormControlInput1" placeholder="Peter Parker" required>
+         </div>
+         <div class="mb-2">
+           <label for="exampleFormControlInput1" class="form-label lead fw-bold">Your email address</label>
+           <input type="email" class="form-control bg-light" id="exampleFormControlInput1" placeholder="peterparker@marvel.com" required>
+         </div>
+         <div class="mb-2">
+           <label for="exampleFormControlInput1" class="form-label lead fw-bold">Your phone number</label>
+           <input type="email" class="form-control bg-light" id="exampleFormControlInput1" placeholder="+33633684795">
+         </div>
+       
+         <div class="mb-3">
+           <button type="submit" class="form1 btn btn-dark btn-lg px-4 me-md-2 ">Send Message</button>
+         </div>
+       </div> 
+
+
       </div>
 
       <div class="col">
@@ -132,7 +151,7 @@
               </svg>
             </div>
             <h4 class="fw-semibold mb-0">Featured title</h4>
-            <p class="text-white">Paragraph of text beneath the heading to explain the heading.</p>
+            <p class="text-white">Get quality data from any public website using.</p>
           </div>
 
           <div class="col d-flex flex-column gap-2">
